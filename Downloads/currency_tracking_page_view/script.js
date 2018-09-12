@@ -13,7 +13,6 @@ function loadRUBData() {
     let from = to - days;
     
     /*Object.defineProperty(document, "referrer", {get : function(){ return "my new referrer"; }});*/
-    
     let urlRUB = `https://charts.forexpf.ru/html/tw/history?symbol=29&resolution=5&from=${from}&to=${to}`;
     
     //Make the configuration: GET-request on URL posted below
